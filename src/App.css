@@ -1,0 +1,52 @@
+.list-group-item.active {
+  z-index: 2;
+  color: var(--bs-list-group-active-color);
+  background-color: #e8eded !important;
+  border-color: #abaeae !important;
+  color: black !important;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  color: var(--bs-list-group-color);
+  text-decoration: none;
+  background-color: var(--bs-list-group-bg);
+  border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+  line-height: 61px !important;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.main-container {
+  height: 100vh;
+  /* Full height of the viewport */
+  display: flex;
+  flex-direction: column;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  height: 100%;
+  /* Full height for the row */
+}
+
+.chat-box {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  overflow-y: auto;
+  /* Ensures chat messages can scroll */
+}
+
+.chat-box div {
+  padding: 8px;
+  background-color: #e1e1e1;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
