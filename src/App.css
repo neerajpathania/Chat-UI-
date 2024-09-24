@@ -50,3 +50,9 @@ body {
   border-radius: 5px;
   margin-bottom: 10px;
 }
+
+.positionProfilePic {
+  position: relative;
+  top: -17rem;
+  left: -25rem;
+}
